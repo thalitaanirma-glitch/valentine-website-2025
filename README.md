@@ -45,12 +45,12 @@ Note: Make sure you're logged into your GitHub account. If you don't have one, y
 Here's what you can customize in `config.js`:
 ```javascript
 // Basic Information
-valentineName: "Jade"                    // Your Valentine's name
+valentineName: "Angelie"                    // Your Valentine's name
 pageTitle: "Will You Be My Valentine? 💝" // Browser tab title
 
 // Floating Background Elements
 floatingEmojis: {
-    hearts: ['❤️', '💖', '💝', '💗', '💓'],  // Heart emojis in background
+    hearts: ['❤️', '🤍', '🖤', '💗', '💓'],  // Heart emojis in background
     bears: ['🧸', '🐻']                       // Bear emojis in background
 }
 
@@ -60,12 +60,12 @@ questions: {
         text: "Do you like me?",                   // First question
         yesBtn: "Yes",                             // Yes button text
         noBtn: "No",                               // No button text
-        secretAnswer: "I don't like you, I love you! ❤️"  // Hidden message
+        secretAnswer: "I don't like you, I love you! 🤍"  // Hidden message
     },
     second: {
         text: "How much do you love me?",          // Second question
         startText: "This much!",                   // Text before percentage
-        nextBtn: "Next ❤️"                         // Next button text
+        nextBtn: "Next 🤍"                         // Next button text
     },
     third: {
         text: "Will you be my Valentine...?",      // Final question
@@ -76,16 +76,16 @@ questions: {
 
 // Love Meter Messages
 loveMessages: {
-    extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows above 5000%
-    high: "To infinity and beyond! 🚀💝",              // Shows above 1000%
-    normal: "And beyond! 🥰"                           // Shows above 100%
+    extreme: "WOOOOW You love me that much??🙀",  // Shows above 5000%
+    high: "To infinity and beyond! 🚀",              // Shows above 1000%
+    normal: "And beyond! 😾"                           // Shows above 100%
 }
 
 // Final Celebration
 celebration: {
     title: "Yay! I'm the luckiest person...",     // Celebration title
     message: "Now come get your gift...",          // Celebration message
-    emojis: "🎁💖🤗💝💋❤️💕"                        // Celebration emojis
+    emojis: "🎁🖤😼🤍💋❤️💕"                        // Celebration emojis
 }
 
 // Website Colors
